@@ -1,0 +1,37 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "Hello world",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaeldowseza/hello-world.git"
+  },
+  "keywords": [
+    "hello-world"
+  ],
+  "author": "Michael Dowse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaeldowseza/hello-world/issues"
+  },
+  "homepage": "https://github.com/michaeldowseza/hello-world#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.12.2",
+    "jest": "^27.0.4",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.2"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "tabWidth": 2,
+    "printWidth": 120,
+    "arrowParens": "avoid",
+    "trailingComma": "none"
+  }
+}
