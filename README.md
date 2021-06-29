@@ -2,7 +2,7 @@
 
 <!-- [START badges] -->
 
-![Build status](https://github.com/michaeldowseza/hello-world/actions/workflows/build.yml/badge.svg)
+![build](https://github.com/michaeldowseza/hello-world/actions/workflows/build.yml/badge.svg)
 
 <!-- [END badges] -->
 
