@@ -2,7 +2,7 @@
 
 <!-- [START badges] -->
 
-![build](https://github.com/michaeldowseza/hello-world/actions/workflows/build.yml/badge.svg)
+![build](https://github.com/michaeldowseza/hello-world/actions/workflows/build.yml/badge.svg) [![codecov](https://codecov.io/gh/michaeldowseza/hello-world/branch/main/graph/badge.svg?token=OLW8I1LX1M)](https://codecov.io/gh/michaeldowseza/hello-world) 
 
 <!-- [END badges] -->
 
