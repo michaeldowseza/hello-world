@@ -1,7 +1,6 @@
 import { hello } from './hello';
 
-const sayHello = (): void => {
-  console.log(hello('world'));
+export const helloWorld = hello('world');
+export default (): void => {
+  console.log(helloWorld);
 };
-
-export default sayHello;
