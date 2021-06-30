@@ -2,10 +2,14 @@
   "name": "@michaeldowseza/hello-world",
   "version": "1.0.0",
   "description": "Hello world",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "files": [
+    "dist*"
+  ],
   "scripts": {
     "lint": "eslint . --ext .ts",
     "test": "jest --coverage",
+    "prepublishOnly": "tsc",
     "build": "tsc"
   },
   "repository": {
@@ -15,6 +19,9 @@
   "keywords": [
     "hello-world"
   ],
+  "engines": {
+    "node": ">=12"
+  },
   "author": "Michael Dowse",
   "license": "MIT",
   "bugs": {
