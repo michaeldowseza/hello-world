@@ -1,14 +1,14 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "esnext",
-    "lib": ["es2015"],
+    "target": "ES2015",
+    "module": "ES2020",
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "outDir": "dist",
+    "declaration": true,
+    "outDir": "lib/esm",
+    "moduleResolution": "node",
     "types": ["node", "jest"]
   },
-  "exclude": ["./test/**/*"]
+  "include": ["src"]
 }
