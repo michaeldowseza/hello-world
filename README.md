@@ -26,14 +26,14 @@ npm install @michaeldowseza/hello-world
 ```js
 import helloWorld from '@michaeldowseza/hello-world';
 
-helloWorld();
+helloWorld(); // -> "Hello world"
 ```
 
 ### ESM
 ```js
 const helloWorld = require('@michaeldowseza/hello-world').default;
 
-helloWorld();
+helloWorld(); // -> "Hello world"
 ```
 
 ## Contributing
