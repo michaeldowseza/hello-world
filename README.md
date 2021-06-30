@@ -6,4 +6,4 @@
 
 <!-- [END badges] -->
 
-Simple Hello world project to playaround with Github and Github actions
+Simple Hello world project to play around with Github and Github actions
