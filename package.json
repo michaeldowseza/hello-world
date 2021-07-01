@@ -2,8 +2,6 @@
   "name": "@michaeldowseza/hello-world",
   "version": "1.0.0",
   "description": "Hello world",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
   "files": [
     "lib/"
   ],
@@ -11,8 +9,13 @@
     "lint": "eslint . --ext .ts",
     "test": "jest --coverage",
     "prepublishOnly": "npm run build",
-    "build": "tsc -p tsconfig.json"
+    "build": "npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir lib/cjs"
   },
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/esm/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/michaeldowseza/hello-world.git"
